@@ -1,0 +1,5 @@
+ <style>
+       .hide {
+          pointer-events: none;
+       }
+    </style>
