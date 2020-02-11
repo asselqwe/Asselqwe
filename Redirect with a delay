@@ -1,0 +1,8 @@
+ <script>
+    var Webflow = Webflow || [];
+    Webflow.push(function() {
+      $('#email-form').submit(function() {
+        setTimeout(function() { window.location = "http://usefulness.ru/"; }, 5000);
+      });
+    });
+    </script>
