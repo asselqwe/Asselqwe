@@ -1,0 +1,7 @@
+ <script>
+    $(".field-label").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#second-section").offset().top
+        }, 500);
+    });
+    </script>
