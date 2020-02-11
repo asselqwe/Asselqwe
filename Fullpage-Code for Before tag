@@ -1,0 +1,19 @@
+  <!-- Обязательная ссылка на плагин -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+ 
+    <!-- Ссылка на дополнительную функцию для стандартного скролла для больших секций -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/scrolloverflow.min.js"></script>
+ 
+    <!-- Код для подключения плагина и настроек -->
+    <script> $(document).ready(function() { 
+    		$('#fullpage').fullpage({
+    	    responsiveWidth: 900,
+    			verticalCentered: true,
+    	    scrollingSpeed: 700,
+    	    scrollBar:true,
+    	    scrollOverflow: true,
+    	    navigation: true,
+    			anchors: ['first', 'second', 'third'],
+    			menu: '#myMenu',
+            }); 
+    });</script>
