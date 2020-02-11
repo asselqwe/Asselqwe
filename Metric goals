@@ -1,0 +1,11 @@
+ <script>
+      var Webflow = Webflow || [];
+		Webflow.push(function(){
+      	$('#button_vk').on('click', function(e) {
+          yaCounter45776550.reachGoal('vk'); return true;
+        });
+      	$('#clbkmain').submit(function(e) {
+          yaCounter45776550.reachGoal('callback_main'); return true;
+        });
+      }); 
+    </script>
