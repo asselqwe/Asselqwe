@@ -1,0 +1,19 @@
+<style>
+    /* Blending modes */
+    .mbm-normal{mix-blend-mode: normal;}
+    .mbm-multiply{mix-blend-mode: multiply;}
+    .mbm-screen{mix-blend-mode: screen;}
+    .mbm-overlay{mix-blend-mode: overlay;}
+    .mbm-darken{mix-blend-mode: darken;}
+    .mbm-lighten{mix-blend-mode: lighten;}
+    .mbm-color-dodge{mix-blend-mode: color-dodge}
+    .mbm-color-burn{mix-blend-mode: color-burn;}
+    .mbm-hard-light{mix-blend-mode: hard-light;}
+    .mbm-soft-light{mix-blend-mode: soft-light;}
+    .mbm-difference{mix-blend-mode: difference;}
+    .mbm-exclusion{mix-blend-mode: exclusion;}
+    .mbm-hue{mix-blend-mode: hue;}
+    .mbm-saturation{mix-blend-mode: saturation;}
+    .mbm-color{mix-blend-mode: color;}
+    .mbm-luminosity{mix-blend-mode: luminosity;}
+    </style>
