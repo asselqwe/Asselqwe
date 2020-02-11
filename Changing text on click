@@ -1,0 +1,13 @@
+ <script>
+      var Webflow = Webflow || [];
+		Webflow.push(function(){
+		   $('.button').click(function(e) {
+			let t1 = 'Подробнее';
+			let t2 = 'Скрыть'
+			if ($(this).text() === t1) 
+		  $(this).text(t2)
+			 else 
+				$(this).text(t1);
+     });
+     });
+    </script>
