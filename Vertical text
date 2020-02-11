@@ -1,0 +1,3 @@
+ <style>
+    .box{writing-mode: vertical-lr;}
+    </style>
