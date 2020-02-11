@@ -1,0 +1,7 @@
+ <script>
+    $('.testlink').click(function(e) {
+      e.preventDefault();
+      var linkUrl = $(this).attr('href');
+      setTimeout(function(url) { window.location = url; }, 3000, linkUrl);
+    });
+    </script>
