@@ -1,0 +1,15 @@
+<style>
+	.custom {
+	  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"), auto;
+	  }
+    </style>
+ 
+    /* Retina */
+    <style>
+	.custom {
+	cursor: url('img/cursor_left.png'), auto;
+	cursor: -webkit-image-set(
+	  url('img/cursor_left.png') 1x,
+	  url('img/cursor_left_hi.png') 2x
+	), auto;}
+    </style>
