@@ -1,0 +1,13 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" rel="stylesheet" type="text/css">
+    <style>
+    .remodal-overlay {
+      background: rgba(0, 0, 0, 0.8);
+    }
+    .remodal {
+    	background: rgba(0, 0, 0, 0);
+      width:auto;
+      padding: 0px;
+    }
+    </style>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js"></script>
